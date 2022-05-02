@@ -1,1 +1,1 @@
-![dd](./asset/intro/pic.jpg)
+![dd](./asset/img/intro/pic.jpg)
