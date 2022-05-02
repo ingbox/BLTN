@@ -1,0 +1,2 @@
+210629: Ideal World Cup Front-END 체험해보기 ( ViewPager 개념, Fragment 개념, Navigator Bar 개념 학습)
+210828: Dtuch 소닉더치코리아 앱 개발 프로젝트

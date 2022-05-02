@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".PreAnalysisAcitivity">
+
+
+    <TextView
+        android:id="@+id/select_device_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사용하실 머신을 클릭해주세요"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/noto_black"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/select_device_list"
+        app:layout_constraintTop_toBottomOf="@id/select_device_tv"
+        app:layout_constraintBottom_toTopOf="@id/select_device_refresh"
+        android:layout_marginBottom="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/select_device_refresh"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        android:text="refresh"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

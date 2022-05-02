@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_weight="0.3"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:orientation="horizontal"
+        android:columnCount="3"
+        android:rowCount="3"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_rowSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/login_button_style"
+            android:text="소닉 더치\n사용자 등록"
+            android:textSize="18dp"
+            android:fontFamily="@font/noto_black"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_rowSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/noto_black"
+            android:text="당신을 위한\n오늘의 커피"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:background="@drawable/login_button_style"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_rowSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/noto_black"
+            android:text="소닉더치\n사용법"
+            android:textColor="@color/black"
+            android:background="@drawable/login_button_style"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_rowSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/noto_black"
+            android:text="소닉더치\nA/S"
+            android:textColor="@color/black"
+            android:background="@drawable/login_button_style"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_rowSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/hans"
+            android:text="데이터 입력"
+            android:background="@drawable/login_button_style"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_rowSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/hans"
+            android:text="데이터 입력"
+            android:background="@drawable/login_button_style"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_rowSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/hans"
+            android:text="데이터 입력"
+            android:background="@drawable/login_button_style"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_rowSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/hans"
+            android:text="데이터 입력"
+            android:background="@drawable/login_button_style"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_rowSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/hans"
+            android:text="데이터 입력"
+            android:background="@drawable/login_button_style"
+            />
+    </GridLayout>
+</LinearLayout>
+

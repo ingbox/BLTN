@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="walkthrough_images">
+        <item>@drawable/ad1</item>
+        <item>@drawable/ad1</item>
+        <item>@drawable/ad1</item>
+        <item>@drawable/ad1</item>
+    </array>
+</resources>

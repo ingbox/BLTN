@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".DataActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사용자 데이터 입력"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:fontFamily="@font/noto_black"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:lineSpacingExtra="5dp"
+        android:id="@+id/make_account_text"
+        android:textColor="#000000"
+
+        >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/make_account_text"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/box"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:background="@drawable/round_edit_text_style"
+                android:maxLines="1"
+                android:inputType="text"
+                android:hint="이름"
+                android:textColorHint="@color/grey"
+                android:id="@+id/input_first_name"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:background="@drawable/round_edit_text_style"
+                android:maxLines="1"
+                android:inputType="text"
+                android:hint="성"
+                android:textColorHint="@color/grey"
+                android:id="@+id/input_last_name"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            tools:context=".DataActivity">
+
+            <DatePicker android:id="@+id/dpSpinner"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="입력"
+        android:textSize="20dp"
+        android:layout_below="@id/box"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:id="@+id/sign_in_button"
+        />
+</RelativeLayout>

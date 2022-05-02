@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+
+        android:text="INGB WORLDCUP"
+        android:textColor="@color/logo"
+        android:textSize="70dp"
+        android:fontFamily="@font/app_font"
+
+        />
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:rowCount="3"
+    android:columnCount="4"
+    >
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/rank_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rank"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/fragment_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/viewpaager_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ViewPager"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/gallery_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gallery"
+        android:textSize="30dp"/>
+
+
+    <Button
+        android:id="@+id/alarm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alarm"
+        android:textSize="30dp"/>
+</GridLayout>
+
+
+
+
+</LinearLayout>

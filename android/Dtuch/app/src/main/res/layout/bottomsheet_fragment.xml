@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="지금 추출하시는 커피는"
+        android:fontFamily="@font/noto_black"
+        android:background="@color/white"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:id="@+id/text_1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="커피 정보\n향 (Aroma) : ★★★★\n산도 (Acidity) : ★★★★★\n단맛 (Sweetness) : ★★★\n쓴맛 (Bitterness) : ★★★\n바디감 (Body) : ★★★★\n 이야기: 아프리카 킬리만자로 명산의 동쪽에서 재배되는 커피로, 묵직한 바디감과 오묘한 과일향, 그리고 가볍지 않은 신맛이 특징이다. 전체적으로 맛의 균형이 뛰어나며 대중적인 커피 중 하나이다.\n\n\n\n\n\n\n\n.... "
+        android:background="@drawable/round_edit_text_style"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/noto"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:id="@+id/text_2"
+        />
+
+    <ProgressBar
+        android:id="@+id/progress_Bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:indeterminate = "true"
+        android:max="100"
+        android:minWidth="200dp"
+        android:minHeight="50dp"
+        android:visibility="visible"
+        android:layout_centerInParent="true"
+        android:progress="0"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        />
+
+</LinearLayout>
